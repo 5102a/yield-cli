@@ -1,0 +1,45 @@
+{
+  "name": "yield-cli",
+  "version": "1.0.0",
+  "description": "yield-cli transform file",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "yield": "./bin/cli.js"
+  },
+  "extensions": [
+    ".js",
+    ".css",
+    ".scss",
+    ".sass"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1015355299/yield-cli.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "yield",
+    "file",
+    "transform"
+  ],
+  "author": "5102a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1015355299/yield-cli/issues"
+  },
+  "homepage": "https://github.com/1015355299/yield-cli#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "commander": "^7.2.0",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.12",
+    "uglify-js": "^3.13.5"
+  }
+}
