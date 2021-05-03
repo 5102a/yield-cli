@@ -33,13 +33,13 @@
     "url": "https://github.com/1015355299/yield-cli/issues"
   },
   "homepage": "https://github.com/1015355299/yield-cli#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.14.0",
     "@babel/preset-env": "^7.14.0",
     "commander": "^7.2.0",
     "node-sass": "^5.0.0",
     "sass": "^1.32.12",
     "uglify-js": "^3.13.5"
-  }
+  },
+  "devDependencies": {}
 }
